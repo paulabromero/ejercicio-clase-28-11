@@ -1,14 +1,14 @@
-//crear un arreglo de 4 estudiantes
+// 1.crear un arreglo de 4 estudiantes
 
 let nombresEestudiantes = ["Ana", "Pedro", "Juan", "Diego"];
 
-// mostrar la lista utilizando un ciclo for
+// 2.mostrar la lista utilizando un ciclo for
 for(let index = 0; index < nombresEestudiantes.length; index++){
     console.log("lista"+index);
     console.log(nombresEestudiantes [index]);
 }
 
-//contar la cantidad total de estudiantes 
+// 3.contar la cantidad total de estudiantes 
 
 console.log("Cantidad de estudiantes "+ nombresEestudiantes.length);
 
@@ -21,4 +21,7 @@ console.log(nombresEestudiantes);
 // 5. Buscar un estudiante especifico dentro del arreglo
 
 
-// 6. 
+// 6. Eliminar un estudiante del arreglo
+
+
+// 7. Mostrar la lista final de estudiantes
